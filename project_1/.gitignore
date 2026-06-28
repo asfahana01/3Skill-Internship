@@ -1,0 +1,54 @@
+# ── Virtual Environment ───────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Data Files (keep CSV out of git if large) ─────────────────
+# Comment out if you WANT to push the dataset
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+
+# ── Model Artifacts ───────────────────────────────────────────
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.model
+
+# ── OS Files ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── VS Code ───────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── Logs & Temp ───────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ── Environment Variables ─────────────────────────────────────
+.env
+.env.local
