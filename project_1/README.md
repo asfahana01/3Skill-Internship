@@ -131,8 +131,8 @@ Load Data → EDA → Missing Value Check → Correlation Analysis
 ## 👤 Author
 
 **Asfa**
-- 🔗 [LinkedIn](https://linkedin.com/in/your-profile)
-- 🐙 [GitHub](https://github.com/your-username)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/asfa-hana-a6a36a391/)
+- 🐙 [GitHub](https://github.com/asfahana01)
 
 ---
 
