@@ -15,12 +15,22 @@ Given a set of chemical features (acidity, alcohol, pH, etc.), classify a wine a
 ## 📂 Project Structure
 
 ```
-wine-quality-ml/
-├── venv/                     # Virtual environment (not tracked by git)
-├── wine_quality_ml.ipynb     # Main notebook
-├── winequality.csv           # Dataset (Red Wine Quality)
-├── .gitignore
-└── README.md
+3Skill Internship/
+├project_1/
+│     ├── .venv/                    # Virtual environment (not tracked by git)
+│     ├── wine_quality_ml.ipynb     # Main notebook
+│     ├── winequality.csv           # Dataset (Red Wine Quality)
+│     ├── README.md                 <-- you are here
+│     └── .gitignore
+│
+│
+├project_2/
+│
+│
+│
+├── README.md 
+├── .gitattributes
+└── LICENSE
 ```
 
 ---
@@ -45,7 +55,7 @@ wine-quality-ml/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/wine-quality-ml.git
+git clone https://github.com/asfahana01/wine-quality-ml.git
 cd wine-quality-ml
 ```
 
@@ -130,7 +140,7 @@ Load Data → EDA → Missing Value Check → Correlation Analysis
 
 ## 👤 Author
 
-**Asfa**
+**Asfa Hana**
 - 🔗 [LinkedIn](https://www.linkedin.com/in/asfa-hana-a6a36a391/)
 - 🐙 [GitHub](https://github.com/asfahana01)
 
