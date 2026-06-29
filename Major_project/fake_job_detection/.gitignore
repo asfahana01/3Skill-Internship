@@ -1,0 +1,75 @@
+# ---- Virtual Environments ----
+venv/
+.venv/
+env/
+ENV/
+*/venv/
+*/.venv/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---- Jupyter / Notebook checkpoints ----
+.ipynb_checkpoints/
+
+# ---- VS Code ----
+.vscode/
+*.code-workspace
+
+# ---- Environment variables / secrets ----
+.env
+.env.*
+kaggle.json
+
+# ---- Data files (large, don't commit datasets) ----
+data/*.csv
+data/*.zip
+data/*.json
+data/*.tsv
+*.parquet
+
+# ---- Model artifacts (often large binary files) ----
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+
+# ---- NLTK downloaded data ----
+nltk_data/
+
+# ---- OS-specific junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Logs ----
+*.log
+
+# ---- Pytest / coverage ----
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---- mypy / linters ----
+.mypy_cache/
+.ruff_cache/
