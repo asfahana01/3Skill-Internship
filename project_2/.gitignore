@@ -1,0 +1,48 @@
+# ── Virtual Environments ──────────────────────────────────────────────────────
+.venv/
+hiring_env/
+env/
+venv/
+ENV/
+
+# ── Jupyter Notebook Artifacts ────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Trained Model Files ───────────────────────────────────────────────────────
+hiring_project/hiring_prediction_model.pkl
+hiring_project/feature_scaler.pkl
+hiring_project/model_metadata.pkl
+
+# ── Dataset (large file — store separately) ───────────────────────────────────
+hiring_project/*.xlsx
+hiring_project/*.csv
+
+# ── Generated Charts / EDA Outputs ───────────────────────────────────────────
+hiring_project/*.png
+
+# ── Python Cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ── OS Files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── VS Code Settings ──────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── Logs & Temp ───────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+
+# ── Build / Dist ──────────────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
